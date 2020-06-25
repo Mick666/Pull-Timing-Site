@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Dota 2 Timing Reminder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Dota 2 Timing Reminder</h2>
+    <div id="timingContainer">
+        <button onClick="clock.start()">Start timer</button>
+        <button id="pause" onClick="clock.pause()">Pause timer</button>
+        <button onClick="clock.stop()">Stop timer</button>
+        <p id="clock">00:00</p>
+    </div>
+    <audio id="sound" src="havemoney.mp3"></audio>
+    <audio id="runes" src="helpornot.mp3"></audio>
+</body>
+<script src="script.js"></script>
